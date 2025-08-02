@@ -71,3 +71,5 @@ async function insertUserStream(totalUsers:number){
     console.timeEnd("seed-stream");
     await closeDB();
 })()
+
+// npx ts-node-dev src/seed/seed-with-stream.ts

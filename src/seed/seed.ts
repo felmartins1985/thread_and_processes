@@ -59,3 +59,5 @@ async function seedUser(){
     console.timeEnd("seed-db");
     await closeDB();
 })()
+
+// npx ts-node-dev src/seed/seed.ts

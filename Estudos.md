@@ -1,3 +1,5 @@
+# Estudos Node.js: Streams, Event Loop, Generators, Threads e Processos
+
 * Stream:
 new Readable({ ... })
 Ele cria uma stream legível personalizada, ou seja, um objeto que pode fornecer dados para quem quiser "ler" (como o for await...of no código principal)

@@ -2,4 +2,3 @@ node_modules
 .env
 data
 package-lock.json
-*.md

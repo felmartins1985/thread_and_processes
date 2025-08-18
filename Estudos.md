@@ -117,9 +117,9 @@ Principais componentes:
 1. `readline.createInterface` → lê linha a linha.  
 2. `new Worker(...)` → instancia thread.  
 3. `encryptWithWorker(item)` → envia ao worker, espera resposta e resolve Promise.
-3. 1. Envia o item ao worker
-3. 2. Escuta a resposta com a versão criptografada do item
-3. 3. Resolve a Promise com a linha pronta para ser escrita
+    1. Envia o item ao worker
+    2. Escuta a resposta com a versão criptografada do item
+    3. Resolve a Promise com a linha pronta para ser escrita
 
 Comunicação:
 - `parentPort`: canal bidirecional.Resolve a Promise com a linha pronta para ser escrita. O parentPort é o canal de comunicação bidirecional que permite que o Worker Thread receba tarefas do processo principal e envie os resultados processados de volta, possibilitando o processamento paralelo sem bloquear a thread principal.
